@@ -1,6 +1,6 @@
 package OpserverPattern.exercise;
 
-import java.util.Observable;
+/*import java.util.Observable;
 import java.util.Observer;
 
 import OpserverPattern.weather.DisplayElement;
@@ -27,4 +27,4 @@ public class ForecastDisplay implements Observer, DisplayElement {
 		System.out.println("화면 변경");
 	}
 	
-}
+}*/
