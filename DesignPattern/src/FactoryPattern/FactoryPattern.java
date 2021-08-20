@@ -1,0 +1,9 @@
+package FactoryPattern;
+
+/*
+ * ∆—≈‰∏Æ∆–≈œ -
+ */
+public class FactoryPattern {
+
+
+}
