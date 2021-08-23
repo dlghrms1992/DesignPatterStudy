@@ -4,6 +4,10 @@ public class NYPizzaStore extends PizzaStore{
 
 	
 	
+	public NYPizzaStore(SimplePizzaFactory factory) {
+		super(factory);
+	}
+
 	@Override
 	public Pizza orderPizza(String type) {
 		return super.orderPizza(type);
