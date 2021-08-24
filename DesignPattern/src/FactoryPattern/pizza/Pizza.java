@@ -1,6 +1,6 @@
 package FactoryPattern.pizza;
 
-public class Pizza {
+public abstract class Pizza {
 	String type;
 	
 	public Pizza createPizza(String type) {
@@ -8,4 +8,7 @@ public class Pizza {
 		
 		return pizza;
 	}
+	
+	abstract void prepare();
+
 }
