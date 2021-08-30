@@ -12,4 +12,10 @@ public class LightOncommand implements Command{
 	public void excute() {
 		light.on();
 	}
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -12,8 +12,8 @@ package AdapTorAndPacadePatter.pacade;
  *
  */
 public class Pacade {
-	HomeTheaterFacade homeTheaterFacade = new HomeTheaterFacade(amp, tuner, dvd, cd, projector, lights, screen, popper);
-	homeTheaterFacade.watchMovie("movieName");
-	homeTheaterFacade.endMovie();
+//	HomeTheaterFacade homeTheaterFacade = new HomeTheaterFacade(amp, tuner, dvd, cd, projector, lights, screen, popper);
+//	homeTheaterFacade.watchMovie("movieName");
+//	homeTheaterFacade.endMovie();
 	
 }
