@@ -51,9 +51,9 @@ public class ChocolateBoiler {
 	}
 
 	public static void main(String[] args) {
-		ChocholateBoiler boiler = ChcolateBoiler.getInstance();
-		boiler.fill();
-		boiler.boil();
-		boiler.drain();
+//		ChocholateBoiler boiler = ChcolateBoiler.getInstance();
+//		boiler.fill();
+//		boiler.boil();
+//		boiler.drain();
 	}
 }
