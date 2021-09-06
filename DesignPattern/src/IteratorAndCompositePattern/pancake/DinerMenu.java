@@ -1,9 +1,10 @@
 package IteratorAndCompositePattern.pancake;
 
-public class DinerMenu {
+public class DinerMenu{
 	static final int MAX_ITEMS = 6;
 	int numberOfItems = 0;
 	MenuItem[] menuItems;
+	int postion = 0;
 	
 	
 	public DinerMenu() {
@@ -12,6 +13,7 @@ public class DinerMenu {
 		addItem("BLT", "통밀 위에 베이컨, 상추, 토마토를 얹은 메뉴", false, 2.99);
 		addItem("오늘의 스프", "감자 샐러드를 곁들인 오늘의 스프", false, 3.29);
 		addItem("핫도그", "사워크라우트, 갖은 양념, 양파, 치즈가 곁들여진 핫도그", false, 3.09);
+	
 		
 	}
 	
@@ -25,6 +27,11 @@ public class DinerMenu {
 		}
 				
 	}
+	
+	public Iterator createIterator() {
+		return new DinerMenuIterator(menuItems);
+	}
+	
 
 	public int getNumberOfItems() {
 		return numberOfItems;
