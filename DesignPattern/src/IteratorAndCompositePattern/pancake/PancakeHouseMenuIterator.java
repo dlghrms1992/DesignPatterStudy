@@ -1,7 +1,10 @@
 package IteratorAndCompositePattern.pancake;
 
-public class PancakeHouseMenuIterator implements Iterator {
+import java.util.ArrayList;
 
+public class PancakeHouseMenuIterator implements Iterator {
+	ArrayList menuItems;
+	
 	@Override
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
